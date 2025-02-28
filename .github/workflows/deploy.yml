@@ -10,10 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pages: write
-
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v3
 
       - name: Setup Node.js
